@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <General>
+      <Flags>
+        <MainUnitHasUsesSectionForAllUnits Value="False"/>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="VariousDevelopment"/>
+      <UseAppBundle Value="False"/>
+      <ResourceType Value="res"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <Units Count="29">
+      <Unit0>
+        <Filename Value="VariousDevelopment.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="VariousDevelopment"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../P-StreamReplacer/source/FileTemplater.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="FileTemplater"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../P-StreamReplacer/source/StreamReplacer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="StreamReplacer"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../P-Strings/source/StringRoutines.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="StringRoutines"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../P-Strings/test/source/TestStringRoutinesGetByteLength.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="TestStringRoutinesGetByteLength"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../P-Strings/test/source/fpc.cfg"/>
+        <IsPartOfProject Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../P-Containers/source/Int64LinkedList.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Int64LinkedList"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../P-Containers/source/LinkedList.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="LinkedList"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../P-Containers/source/GenerateSortInt64LinkedListRoutine.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="GenerateSortInt64LinkedListRoutine"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../P-SortLinkedList/source/SortLinkedListTemplate.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="../P-SortLinkedList/source/SortLinkedListTemplateImplementation.inc"/>
+        <IsPartOfProject Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="../P-SortLinkedList/source/SortLinkedListTemplateInterface.inc"/>
+        <IsPartOfProject Value="True"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="../P-Containers/source/Int64LinkedListCompareProcedureBody.inc"/>
+        <IsPartOfProject Value="True"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="../P-Containers/source/fpc.cfg"/>
+        <IsPartOfProject Value="True"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="../P-Containers/source/fpcIncludeStreamReplacer.cfg"/>
+        <IsPartOfProject Value="True"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="../P-Containers/test/source/Int64LinkedList/TestInt64LinkedListSorting.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="TestInt64LinkedListSorting"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="../P-Containers/test/source/Int64LinkedList/fpc.cfg"/>
+        <IsPartOfProject Value="True"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="../P-Containers/test/source/Int64LinkedList/TestInt64LinkedListPerformance.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="TestInt64LinkedListPerformance"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="../P-Containers/source/g/SortInt64LinkedListInterface.inc"/>
+        <IsPartOfProject Value="True"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="../P-Containers/source/g/SortInt64LinkedListImplementation.inc"/>
+        <IsPartOfProject Value="True"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="../P-Containers/source/LinkedListTemplateFace.inc"/>
+        <IsPartOfProject Value="True"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="../P-Containers/source/LinkedListTemplateImpl.inc"/>
+        <IsPartOfProject Value="True"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="../P-Containers/source/GenerateInt64LinkedList.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="GenerateInt64LinkedList"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="../P-Containers/source/GenerateInt64LinkedList.sh"/>
+        <IsPartOfProject Value="True"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="../P-Containers/source/g/Int64LinkedListFace.inc"/>
+        <IsPartOfProject Value="True"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="../P-Containers/source/g/Int64LinkedListImpl.inc"/>
+        <IsPartOfProject Value="True"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="../P-Containers/source/CompileGenerateInt64LinkedList.sh"/>
+        <IsPartOfProject Value="True"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="../P-StreamReplacer/source/GenerateStreamReplacerSearchResultLinkedListDelphiProject/GenerateStreamReplacerSearchResultLinkedListExecutable.dpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="../P-StreamReplacer/source/GenerateStreamReplacerSearchResultLinkedList.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="GenerateStreamReplacerSearchResultLinkedList"/>
+      </Unit28>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="VariousDevelopment"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir);../P-Containers/source/g"/>
+      <OtherUnitFiles Value="../P-StreamReplacer/source;../P-Strings/source;../P-Strings/test/source;../P-Containers/source;../P-Containers/test/source/Int64LinkedList"/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Other>
+      <CompilerMessages>
+        <MsgFileName Value=""/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

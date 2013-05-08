@@ -1,0 +1,5 @@
+program VariousDevelopment;
+
+begin
+end.
+
