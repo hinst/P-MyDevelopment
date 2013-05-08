@@ -34,7 +34,7 @@
         <LaunchingApplication PathPlusParams="/usr/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
       </local>
     </RunParams>
-    <Units Count="29">
+    <Units Count="33">
       <Unit0>
         <Filename Value="VariousDevelopment.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -161,8 +161,25 @@
       <Unit28>
         <Filename Value="../P-StreamReplacer/source/GenerateStreamReplacerSearchResultLinkedList.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="GenerateStreamReplacerSearchResultLinkedList"/>
+        <UnitName Value="GenerateStreamReplacerSearchResultLinkedListExecutable"/>
       </Unit28>
+      <Unit29>
+        <Filename Value="fpcUnitPathFilesSourceFromSource.cfg"/>
+        <IsPartOfProject Value="True"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="../P-StreamReplacer/source/CompileGenerateStreamReplacerSearchResultLinkedList.sh"/>
+        <IsPartOfProject Value="True"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="../P-StreamReplacer/source/GenerateStreamReplacerSearchResultLinkedList.sh"/>
+        <IsPartOfProject Value="True"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="../P-StreamReplacer/source/SortStreamReplacerSearchResultLinkedListRoutineBody.inc"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Unit1"/>
+      </Unit32>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
