@@ -34,7 +34,7 @@
         <LaunchingApplication PathPlusParams="/usr/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
       </local>
     </RunParams>
-    <Units Count="33">
+    <Units Count="39">
       <Unit0>
         <Filename Value="VariousDevelopment.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -178,8 +178,36 @@
       <Unit32>
         <Filename Value="../P-StreamReplacer/source/SortStreamReplacerSearchResultLinkedListRoutineBody.inc"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="Unit1"/>
       </Unit32>
+      <Unit33>
+        <Filename Value="../P-StreamReplacer/test/source/TestStreamReplacerSimpliest.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="TestStreamReplacerSimpliest"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="../P-StreamReplacer/test/source/SampleInput001.txt"/>
+        <IsPartOfProject Value="True"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="../P-StreamReplacer/test/source/fpc.cfg"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Unit1"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="fpcUnitPathFilesFrom3LF.cfg"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Unit1"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="../P-Files/source/FileRoutines.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="FileRoutines"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="fpcUnitPathStringsFrom3LF.cfg"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Unit1"/>
+      </Unit38>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -189,7 +217,7 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir);../P-Containers/source/g"/>
-      <OtherUnitFiles Value="../P-StreamReplacer/source;../P-Strings/source;../P-Strings/test/source;../P-Containers/source;../P-Containers/test/source/Int64LinkedList"/>
+      <OtherUnitFiles Value="../P-StreamReplacer/source;../P-Strings/source;../P-Strings/test/source;../P-Containers/source;../P-Containers/test/source/Int64LinkedList;../P-StreamReplacer/test/source;../P-Files/source"/>
       <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Other>
