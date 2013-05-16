@@ -34,7 +34,7 @@
         <LaunchingApplication PathPlusParams="/usr/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
       </local>
     </RunParams>
-    <Units Count="50">
+    <Units Count="51">
       <Unit0>
         <Filename Value="VariousDevelopment.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -230,30 +230,34 @@
         <IsPartOfProject Value="True"/>
       </Unit44>
       <Unit45>
-        <Filename Value="../P-StreamReplacer/test/source/CompileTestStreamReplacer002.sh"/>
+        <Filename Value="../P-StreamReplacer/source/GenerateStreamReplacerSearchResultLinkedList.inc"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="Unit1"/>
       </Unit45>
       <Unit46>
-        <Filename Value="../P-StreamReplacer/test/source/RunTestStreamReplacer002.sh"/>
+        <Filename Value="../P-StreamReplacer/test/source/CompileTestStreamReplacer002.sh"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Unit1"/>
       </Unit46>
       <Unit47>
-        <Filename Value="../P-StreamReplacer/test/source/SampleInput003.txt"/>
+        <Filename Value="../P-StreamReplacer/test/source/RunTestStreamReplacer002.sh"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Unit1"/>
       </Unit47>
       <Unit48>
+        <Filename Value="../P-StreamReplacer/test/source/SampleInput003.txt"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Unit1"/>
+      </Unit48>
+      <Unit49>
         <Filename Value="../P-Strings/test/source/TestStringRoutinesConcat.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="TestStringRoutinesConcat"/>
-      </Unit48>
-      <Unit49>
+      </Unit49>
+      <Unit50>
         <Filename Value="../P-Strings/test/source/TestStringRoutinesConcatPerformance.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="TestStringRoutinesConcatPerformance"/>
-      </Unit49>
+      </Unit50>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -262,7 +266,7 @@
       <Filename Value="VariousDevelopment"/>
     </Target>
     <SearchPaths>
-      <IncludeFiles Value="$(ProjOutDir);../P-Containers/source/g"/>
+      <IncludeFiles Value="$(ProjOutDir);../P-Containers/source/g;../P-StreamReplacer/source"/>
       <OtherUnitFiles Value="../P-StreamReplacer/source;../P-Strings/source;../P-Strings/test/source;../P-Containers/source;../P-Containers/test/source/Int64LinkedList;../P-StreamReplacer/test/source;../P-Files/source"/>
       <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
